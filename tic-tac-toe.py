@@ -23,7 +23,6 @@ def display_board(position_choice):
     boundary = blank_line + divider + blank_line
 
     def choice(a, b, c):
-        check_for_empty()
         return (d_space + check_for_empty(position_choice[a]) + corner_line) + (
                 d_space + check_for_empty(position_choice[b]) + corner_line) + (
                 d_space + check_for_empty(position_choice[c]) + d_space) + '\n'
